@@ -3,12 +3,8 @@ html {
 }
 
 h1 {
-    
     text-transform: uppercase;
-    
 }
-
-
 
 img {
     border: 5px solid white;
@@ -23,4 +19,12 @@ div {
     font-style: normal;
     text-align: center;
     color: white;
+}
+
+@media  (max-width: 600px) {
+    div {
+        width: fit-content;
+        justify-content: center;
+        margin: 0;
+    }
 }
